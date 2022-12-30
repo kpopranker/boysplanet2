@@ -182,7 +182,7 @@ function populateTableEntry(trainee) {
   <div class="table__entry ${eliminated}">
     <div class="table__entry-icon">
       <img class="table__entry-img" src="assets/trainees/${trainee.image}" />
-      <div class="table__entry-icon-border ${trainee.group.toLowerCase}-group-border"></div>
+      <div class="table__entry-icon-border ${trainee.group.toLowerCase()}-group-border"></div>
       ${
         top9 ? '<div class="table__entry-icon-crown"></div>' : ''
       }
@@ -257,9 +257,9 @@ function populateRankingEntry(trainee, currRank) {
     <div class="ranking__entry-view">
       <div class="ranking__entry-icon">
         <img class="ranking__entry-img" src="assets/trainees/${trainee.image}" />
-        <div class="ranking__entry-icon-border ${trainee.group.toLowerCase}-group-border" data-rankid="${currRank-1}"></div>
+        <div class="ranking__entry-icon-border ${trainee.group.toLowerCase()}-group-border" data-rankid="${currRank-1}"></div>
       </div>
-      <div class="ranking__entry-icon-badge bg-${trainee.group.toLowerCase}">${currRank}</div>
+      <div class="ranking__entry-icon-badge bg-${trainee.group.toLowerCase()}">${currRank}</div>
       ${
         top9 ? '<div class="ranking__entry-icon-crown"></div>' : ''
       }
