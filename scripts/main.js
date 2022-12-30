@@ -62,14 +62,13 @@ trainee: {
   id: ... // position in csv used for simple recognition
   name_romanized: ...
   name_hangul: ...
-  name_japanese: ...
+  name_global: ...
   company: ...
-  grade: a/b/c/d/f
   birthyear: ...
   image: ...
   selected: false/true // whether user selected them
   eliminated: false/true
-  top12: false/true
+  top9: false/true
 }
 */
 function convertCSVArrayToTraineeData(csvArrays) {
@@ -80,15 +79,14 @@ function convertCSVArrayToTraineeData(csvArrays) {
       // trainee only has hangul
       trainee.name_hangul = traineeArray[1];
     } else {
-      trainee.name_japanese = traineeArray[1];
+      trainee.name_global = traineeArray[1];
       trainee.name_hangul = traineeArray[2];
     }
     trainee.company = traineeArray[3];
-    trainee.grade = traineeArray[4];
-    trainee.birthyear = traineeArray[5];
-    trainee.eliminated = traineeArray[6] === 'e'; // sets trainee to be eliminated if 'e' appears in 6th col
-    trainee.top12 = traineeArray[6] === 't'; // sets trainee to top 12 if 't' appears in 6th column
-    trainee.id = parseInt(traineeArray[7]) - 1; // trainee id is the original ordering of the trainees in the first csv
+    trainee.birthyear = traineeArray[4];
+    trainee.eliminated = traineeArray[5] === 'e'; // sets trainee to be eliminated if 'e' appears in 6th col
+    trainee.top9 = traineeArray[5] === 't'; // sets trainee to top 9 if 't' appears in 6th column
+    trainee.id = parseInt(traineeArray[6]) - 1; // trainee id is the original ordering of the trainees in the first csv
     trainee.image =
       trainee.name_romanized.replace(" ", "").replace("-", "") + ".jpg";
     return trainee;
