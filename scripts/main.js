@@ -103,7 +103,7 @@ function newTrainee() {
     id: -1, // -1 denotes a blank trainee spot
     name_romanized: '&#8203;', // this is a blank character
     company: '&#8203;', // this is a blank character
-    grade: 'no',
+    group: 'no',
     image: 'emptyrank.png',
   };
 }
