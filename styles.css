@@ -13,12 +13,9 @@
 
   --checked-blue: #052ae2CC;
 
-  /* ranking border colors */
-  --a-rank: #fb4a8c;
-  --b-rank: #fc840c;
-  --c-rank: #ffc407;
-  --d-rank: #19b468;
-  --f-rank: #a6a6a4;
+  /* group border colors */
+  --k-group: #429cfb;
+  --g-group: #d83990;
   --no-rank: #707070;
 }
 
@@ -225,20 +222,11 @@ body {
   background-origin: content-box;
 }
 /* Different entry borders */
-.a-rank-border {
-  border: 5px solid var(--a-rank);
+.k-group-border {
+  border: 5px solid var(--k-group);
 }
-.b-rank-border {
-  border: 5px solid var(--b-rank);
-}
-.c-rank-border {
-  border: 5px solid var(--c-rank);
-}
-.d-rank-border {
-  border: 5px solid var(--d-rank);
-}
-.f-rank-border {
-  border: 5px solid var(--f-rank);
+.g-group-border {
+  border: 5px solid var(--g-group);
 }
 .no-rank-border {
   border: none;
@@ -347,20 +335,11 @@ body {
 .bg-no {
   background-color: var(--no-rank);
 }
-.bg-a {
-  background-color: var(--a-rank);
+.bg-k {
+  background-color: var(--k-group);
 }
-.bg-b {
-  background-color: var(--b-rank);
-}
-.bg-c {
-  background-color: var(--c-rank);
-}
-.bg-d {
-  background-color: var(--d-rank);
-}
-.bg-f {
-  background-color: var(--f-rank);
+.bg-g {
+  background-color: var(--g-group);
 }
 .eliminated .ranking__entry-icon-badge {
   background-color: var(--no-rank);
