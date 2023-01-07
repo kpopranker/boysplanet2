@@ -336,6 +336,7 @@ const alternateRomanizations = {
   'park hyunbeen': ['park hyunbin'],
   'yoon jongwoo': ['yoon jongoo'],
   'anthonny': ['iinuma anthonny', 'anthony'],
+  'chen jianyu': ['dede'],
   'chen yugeng': ['crayon'],
   'hiroto': ['ikumi hiroto'],
   'ichika': ['uehara ichika'],
@@ -344,6 +345,7 @@ const alternateRomanizations = {
   'krystian': ['wang nanjun'],
   'na kamden': ['na dubin'],
   'winnie': ['winne'],
+  'xuan hao': ['swen']
 };
 
 // uses the current filter text to create a subset of trainees with matching info
