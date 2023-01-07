@@ -343,7 +343,7 @@ const alternateRomanizations = {
   'keita': ['terazono keita'],
   'krystian': ['wang nanjun'],
   'na kamden': ['na dubin'],
-  'winne': ['winnie']
+  'winnie': ['winne'],
 };
 
 // uses the current filter text to create a subset of trainees with matching info
