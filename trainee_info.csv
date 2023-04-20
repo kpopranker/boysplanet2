@@ -1,5 +1,5 @@
 Bak Doha,박도하,-,Cube,K,2002,e,1
-Cha Woongki,차웅기,-,WakeOne,K,2002,,2
+Cha Woongki,차웅기,-,WakeOne,K,2002,e,2
 Choi Jiho,최지호,-,FNC,K,2004,e,3
 Choi Seunghun,최승훈,-,OUI,K,2008,e,4
 Choi Woojin,최우진,-,Redstart,K,2005,e,5
@@ -31,18 +31,18 @@ Lee Dongyeol,이동열,-,TOP,K,1998,e,30
 Lee Hoetaek,이회택,-,Cube,K,1993,,31
 Lee Hwanhee,이환희,-,TOP,K,1998,e,32
 Lee Jeonghyeon,이정현,-,WakeOne,K,2002,,33
-Lee Seunghwan,이승환,-,Independent,K,2000,,34
+Lee Seunghwan,이승환,-,Independent,K,2000,e,34
 Lee Yedam,이예담,-,LM,K,2003,e,35
 Lim Junseo,임준서,-,143 Entertainment,K,2005,e,36
 Mun Junghyun,문정현,-,WakeOne,K,2005,e,37
 Oh Sungmin,오성민,-,WakeOne,K,2001,e,38
-Park Gunwook,박건욱,-,Jellyfish,K,2005,t,39
+Park Gunwook,박건욱,-,Jellyfish,K,2005,,39
 Park Gwanyoung,박관영,-,Independent,K,2001,e,40
 Park Hanbin,오성민,-,WakeOne,K,2002,,41
 Park Hyunbeen,박현빈,-,Jellyfish,K,2005,e,42
 Park Jihoo,박지후,-,H1GHR,K,2006,e,43
 Park Minseok,박민석,-,WakeOne,K,2002,e,44
-Seo Won,서원,-,FirstOne,K,2000,,45
+Seo Won,서원,-,FirstOne,K,2000,e,45
 Sung Hanbin,성한빈,-,GL1DE,K,2001,t,46
 Yeom Taegyun,염태균,-,RAIN,K,2002,e,47
 Yoo Seungeon,유승건,-,Yuehua,K,2004,,48
@@ -51,7 +51,7 @@ Anthonny,안토니,-,WakeOne,G,2004,e,50
 Brian,브라이언,-,Yuehua,G,2002,e,51
 Cai Jinxin,蔡锦昕,차이진신,TopClass,G,2003,e,52
 Chen Jianyu,陈建宇,천지안위,Star On,G,1998,e,53
-Chen Kuanjui,陈冠睿,천관루이,Independent,G,2000,,54
+Chen Kuanjui,陈冠睿,천관루이,Independent,G,2000,e,54
 Chen Liang,陈梁,천리앙,Independent,G,2000,e,55
 Chen Renyou,陈任佑,천런유,Independent,G,2003,e,56
 Chen Yugeng,陈誉庚,천위겅,T.ENTER,G,1998,e,57
@@ -60,8 +60,8 @@ Dang Honghai,당홍하이,-,Fantagio,G,2003,e,59
 Dong Dong,东东,동동,Stardust,G,2000,e,60
 Feng Junlan,冯俊岚,펑쥔란,Stardust,G,1999,e,61
 Haru,暖琉,하루,Independent,G,2006,e,62
-Haruto,晴翔,하루토,WakeOne,G,2004,,63
-Hiroto,大翔,히로토,RBW,G,2002,,64
+Haruto,晴翔,하루토,WakeOne,G,2004,e,63
+Hiroto,大翔,히로토,RBW,G,2002,e,64
 Hyo,飛燿,효,Watanabe,G,2002,e,65
 Ichika,一翔,이치카,OD,G,1992,e,66
 Itsuki,邊樹,이츠키,MLD,G,2006,e,67
@@ -74,18 +74,18 @@ Ma Jingxiang,马靖翔,마징시앙,Independent,G,2004,e,73
 Min,민,-,WakeOne,G,2000,e,74
 Na Kamden,나캠든,-,FNC,G,2001,,75
 Nice,나이스,-,Independent,G,2000,e,76
-Ollie,올리,-,Yuehua,G,2006,,77
+Ollie,올리,-,Yuehua,G,2006,e,77
 Osuke,央修,오스케,Independent,G,2003,e,78
 Ouju,桜樹,오쥬,HyperRhythm,G,2004,e,79
 Qiu Shengyang,邱胜扬,치우성양,TPOP,G,2001,e,80
-Ricky,리키,-,Yuehua,G,2004,,81
+Ricky,리키,-,Yuehua,G,2004,t,81
 Riku,陸,리쿠,Independent,G,2004,e,82
 Seok Matthew,석매튜,-,MNH,G,2002,t,83
-Takuto,拓斗,타쿠토,YY,G,2007,,84
+Takuto,拓斗,타쿠토,YY,G,2007,e,84
 Tao Yuan,陶源,타오위안,OCJ,G,2000,e,85
 Toui,透唯,토우이,FNC,G,2003,e,86
 Wang Yanhong,王颜宏,왕옌홍,ASE,G,1998,e,87
-Wang Zihao,王子浩,왕즈하오,Chromosome,G,2001,,88
+Wang Zihao,王子浩,왕즈하오,Chromosome,G,2001,e,88
 Wen Yechen,文邺辰,원예천,Independent,G,2000,e,89
 Winnie,위니,-,FirstOne,G,1998,e,90
 Wumuti,吾木提,우무티,JPark,G,1999,e,91
@@ -95,4 +95,4 @@ Yuki,由暉,유키,Independent,G,2001,e,94
 Yutaka,豊,유타카,Independent,G,1999,e,95
 Yuto,佑都,유토,Independent,G,2004,e,96
 Zhang Hao,章昊,장하오,Yuehua,G,2000,t,97
-Zhang Shuaibo,张帅博,장슈아이보,WELL,G,2002,,98
+Zhang Shuaibo,张帅博,장슈아이보,WELL,G,2002,e,98
