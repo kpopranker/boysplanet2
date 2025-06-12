@@ -319,8 +319,39 @@ function swapTrainees(index1, index2) {
 // <original> is the original name as appearing on csv
 // all of it should be lower case
 const alternateRomanizations = {
+  'baek jaehyeon': ['baek jaehyun'],
+  'bang junhyuk': ['win'],
+  'cho myeongsu': ['cho myungsoo', 'jo myeongsu'],
+  'chuei liyu': ['fredrick choi','cui liyu','choi liyu'],
+  'chung sanghyeon': ['jung sanghyeon'],
+  'jo gyehyeon': ['jo gyehyun'],
+  'jun leejeong': ['jeon leejeong','jun leejung','jeon leejung'],
+  'jung hyunjun': ['jeong hyeonjun', 'jung hyeonjun','jeong hyungun'],
+  'kim geonwoo': ['kim gunwoo'],
+  'kim hyeonseo': ['kim hyunseo'],
+  'kim junmin': ['jayder'],
+  'kim taejo': ['tj'],
+  'kim youngjun': ['kim yeongjun'],
+  'lee hyeop': ['lee hyup'],
+  'moon suhnbin': ['moon sunbin'],
+  'muhn wonjun': ['moon wonjun'],
+  'noh huijun': ['no huijun'],
+  'park junseong': ['park junsung'],
+  'reeonn': ['3d'],
+  'seo won': ['seowon'],
+  'yang dawit': ['yang david'],
+  'yang heuichan': ['yang heechan'],
+  'yeom yechan': ['jake'],
+  'chen jinxin': ['jayden'],
+  'chen lichi': ['rickey','chen liqi'],
+  'hong zihhao': ['hong zihao'],
+  'huang hsinyu': ['huang xinyou','neo'],
   'krystian': ['wang nanjun'],
-  'xuan hao': ['swen']
+  'lin chingen': ['lynn','lin qingen'],
+  'qi lin': ['kylin'],
+  'wang zhongzhi': ['wang zhongzi'],
+  'xuan hao': ['swen'],
+  'zhao guangxu':['lynn lynn']
 };
 
 // uses the current filter text to create a subset of trainees with matching info
