@@ -242,6 +242,9 @@ const abbreviatedCompanies = {
   "RAINBOW BRIDGE WORLD": "RBW",
   "BLOCKBERRY CREATIVE": "BBC",
   "INDIVIDUAL TRAINEE": "INDIVIDUAL",
+  "HANGZHOU TIME FLOWING C&E": "HTF C&E",
+  "NEEDSLAB GLOBAL&CULTURE" : "NEEDSLAB G&C"
+  
 }
 
 function populateRankingEntry(trainee, currRank) {
