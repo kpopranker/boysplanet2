@@ -407,8 +407,8 @@ const currentURL = "https://kpopranker.github.io/boysplanet2";
 // Serializes the ranking into a string and appends that to the current URL
 function generateShareLink() {
   let shareCode = ranking.map(function (trainee) {
-    let twoCharID = ("0" + trainee.id).slice(-2); // adds a zero to front of digit if necessary e.g 1 --> 01
-    return twoCharID;
+    let threeCharID = ("00" + trainee.id).slice(-3); // adds zeros to front of digit if necessary e.g 1 --> 001, 10 --> 010
+    return threeCharID;
   }).join("");
   console.log(shareCode);
   shareCode = btoa(shareCode);
