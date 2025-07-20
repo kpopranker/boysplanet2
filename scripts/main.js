@@ -30,8 +30,8 @@ function getRanking() {
   if (urlParams.has("r")) {
     let rankString = atob(urlParams.get("r")) // decode the saved ranking
     let rankingIds = [];
-    for (let i = 0; i < rankString.length; i += 2) {
-      let traineeId = rankString.substr(i, 2); // get each id of the trainee by substringing every 2 chars
+    for (let i = 0; i < rankString.length; i += 3) {
+      let traineeId = rankString.substr(i, 3); // get each id of the trainee by substringing every 3 chars
       rankingIds.push(parseInt(traineeId));
     }
     console.log(rankingIds);
